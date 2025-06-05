@@ -67,3 +67,4 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/configs/fstab.basic_x86_64_pc
 # VINTF
 DEVICE_MANIFEST_FILE := \
     $(DEVICE_PATH)/configs/manifest.xml
+BOARD_BOOTCONFIG += androidboot.selinux=permissive
